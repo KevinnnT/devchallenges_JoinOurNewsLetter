@@ -1,0 +1,96 @@
+* {
+    font-family: "Be Vietnam Pro", serif;
+    box-sizing: border-box;
+    margin: 0
+  }
+
+body {
+    background-color: #F9FAFB;
+
+}
+
+h1, #parrafo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#parrafo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imagen{
+    display: flex;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    margin-bottom: 20px;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background-color: #FFFF;
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-input {
+    width: 92%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #E5E7EB;
+    text-align: center;
+
+}
+
+button {
+    width: 92%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #E5E7EB;
+    text-align: center;
+    background-color: #284BCE;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #253a86;
+}
+
+button:active {
+    background-color: #37498b;
+    transform: translateY(4px);
+} 
+
+button span {
+    color: #FFFF;
+}
+
+.footerdiv {
+    font-size: 14px;
+    margin-top: 22px;
+}
+
